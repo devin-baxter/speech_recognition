@@ -7,7 +7,7 @@ python -m pip install --upgrade gtts
 
 python -m pip install --upgrade gtts-token
 
-At this point in development FREYA can only understand a few commands. Run the program (python3 freya.py):  
+At this point in development FREYA can only understand a few commands. Run the program from the terminal with the command "python3 freya.py":  
 Say "What is your name?" for Freya to tell you her name;  
   
 Say "What time is it?" for Freya to tell you the current time;  
