@@ -17,6 +17,8 @@ At this point in development FREYA can only understand a few commands. Run the p
   
 python3 freya.py  
 
+*If you get an error saying "connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)" or something similar you can ignore this. Freya should still be able to hear you.*  
+
 Say "What is your name?" for Freya to tell you her name;  
   
 Say "What time is it?" for Freya to tell you the current time;  
@@ -28,6 +30,7 @@ Say "Find location" for Freya to ask, "Which location are we looking up?" and yo
 To end the program, say "Freya, go to sleep" or press Ctrl+Z in the terminal.  
 
 NOTE: If Freya did not hear you or could not understand the command you gave her, she will say "Sorry, I did not get that" and you should repeat the command. The program can stall and require a restart if Freya does not hear or recognize a command for 10 seconds.  
-*All of these commands except "What is your name?" require an active internet connection for Freya to find the relevant information.  
+
+*All of these commands except "What is your name?" require an active internet connection for Freya to find the relevant information.*  
   
 This is the very beginning of an interactive speech application I hope to eventually link to machine learning trained in scientific research. The goal is to create a virtual scientific assisstant able to answer questions or look up data pertaining to real world journal articles for human researchers.  
